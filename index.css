@@ -1,24 +1,56 @@
-div {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-
-}
-
 .btn-style {
     width: 200px;
     height: 50px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-
-
 }
 
 .btn-style:hover {
     border: 1px solid black;
+}
+
+.text-md {
+    font-size: larger;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mt-12 {
+    margin-top: 3rem;
+}
+
+.my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.opacity-20 {
+    opacity: 0.2;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.h-72 {
+    height: 18rem;
 }
