@@ -1,13 +1,23 @@
+body {
+    background-color: #93B1A6;
+}
+
 .btn-style {
-    width: 200px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #DDE6ED;
+    border: 1px solid #DDE6ED;
+    transition-duration: 300ms;
+
 }
 
 .btn-style:hover {
-    border: 1px solid black;
+    border-color: #27374D;
+    background-color: #93B1A6;
+    color: white;
 }
 
 .text-md {
